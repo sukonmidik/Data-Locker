@@ -54,7 +54,7 @@ namespace Data_Locker
 		private static class Crypto
 			{
 			/// <summary>
-			/// Declare cryptography namespaces
+			/// Create cryptography classes
 			/// </summary>
 			private static RandomNumberGenerator rndNum = RandomNumberGenerator.Create ( );
 			private static readonly Aes aes = Aes.Create ( );
